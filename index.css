@@ -17,27 +17,28 @@ main {
     height: 95vh;
 }
 
-#card {
+.card {
     margin: auto 0;
     background-color: white;
-    width: 320px;
+    width: 15dvw;
     border-radius: 20px;
     padding: 10px;
     text-align: center;
 }
 
-#card>img {
+.card>img {
     width: 98%;
     border-radius: 15px;
 }
 
-p {
-    font-size: 15px;
-    font-weight: 400;
+h1 {
+    font-size: 1.15rem;
+    font-weight: 800;
 }
 
-#card>p:nth-child(2) {
-    font-weight: 700;
+h2 {
+    font-size: 1rem;
+    font-weight: 200;
 }
 
 .attribution {
